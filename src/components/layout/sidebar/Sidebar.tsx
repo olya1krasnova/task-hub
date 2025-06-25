@@ -7,7 +7,7 @@ import SidebarProjects from '@/components/layout/sidebar/SidebarProjects';
 
 const Sidebar = () => {
   return (
-    <aside className="py-7 px-6 h-full bg-white dark:bg-neutral-800">
+    <aside className="py-5 px-5 h-full bg-white dark:bg-neutral-800">
       <SidebarHeader title="Account" />
       <SidebarProfile />
       <SidebarHeader title="Main Menu" />

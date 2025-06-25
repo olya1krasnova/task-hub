@@ -2,19 +2,27 @@
 
 import Header from '@/components/ui/header/Header';
 import SearchField from '@/components/ui/searchField/SearchField';
+import ProjectStats from '@/app/dashboard/projectsStats/ProjectStats';
 
 const Dashboard = () => {
   return (
-    <div className="p-8">
-      <div className="flex items-center justify-between mb-6">
-        <Header>Dashboard</Header>
-        <SearchField
-          value=""
-          onChange={() => {
-            console.log(1);
-          }}
-        />
+    <div className="grid grid-cols-[2.7fr_1fr]">
+      <div className="p-5">
+        <div className="flex items-center justify-between mb-6">
+          <Header>Dashboard</Header>
+          <SearchField
+            value=""
+            onChange={() => {
+              console.log(1);
+            }}
+          />
+        </div>
+        <div className="grid grid-cols-[35%_65%] gap-6">
+          <ProjectStats />
+          <div>CHART</div>
+        </div>
       </div>
+      <div className="p-5">CHAT</div>
     </div>
   );
 };

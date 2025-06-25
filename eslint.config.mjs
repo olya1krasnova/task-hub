@@ -50,6 +50,7 @@ export default [
       ],
       '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
       '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/restrict-template-expressions': 'off',
     },
   },
 
