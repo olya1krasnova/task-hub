@@ -3,6 +3,7 @@
 import Header from '@/components/ui/header/Header';
 import SearchField from '@/components/ui/searchField/SearchField';
 import ProjectStats from '@/app/dashboard/projectsStats/ProjectStats';
+import Charts from '@/app/dashboard/charts/Charts';
 
 const Dashboard = () => {
   return (
@@ -17,9 +18,9 @@ const Dashboard = () => {
             }}
           />
         </div>
-        <div className="grid grid-cols-[35%_65%] gap-6">
+        <div className="grid grid-cols-[32%_65%] gap-6">
           <ProjectStats />
-          <div>CHART</div>
+          <Charts />
         </div>
       </div>
       <div className="p-5">CHAT</div>
