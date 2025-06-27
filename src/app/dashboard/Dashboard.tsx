@@ -4,6 +4,7 @@ import Header from '@/components/ui/header/Header';
 import SearchField from '@/components/ui/searchField/SearchField';
 import ProjectStats from '@/app/dashboard/projectsStats/ProjectStats';
 import Charts from '@/app/dashboard/charts/Charts';
+import TaskList from '@/app/dashboard/taskList/TaskList';
 
 const Dashboard = () => {
   return (
@@ -22,6 +23,7 @@ const Dashboard = () => {
           <ProjectStats />
           <Charts />
         </div>
+        <TaskList />
       </div>
       <div className="p-5">CHAT</div>
     </div>

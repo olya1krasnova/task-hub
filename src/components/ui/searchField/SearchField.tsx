@@ -8,7 +8,7 @@ interface Props {
 
 const SearchField = ({ placeholder = 'Search...', value, onChange }: Props) => {
   return (
-    <div className="flex items-center w-full max-w-sm px-4 py-2 bg-white rounded-full shadow dark:bg-white/10">
+    <div className="flex items-center w-full max-w-sm px-4 py-2 bg-background rounded-full shadow">
       <Search size={20} className="text-neutral-500 mr-2" />
       <input
         type="search"
