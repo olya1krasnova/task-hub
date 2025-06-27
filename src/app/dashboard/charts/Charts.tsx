@@ -26,7 +26,7 @@ const Charts = () => {
   };
 
   return (
-    <div className="bg-white dark:bg-white/10 rounded-2xl p-5 flex flex-col content-center justify-between">
+    <div className="bg-background rounded-2xl p-5 flex flex-col content-center justify-between">
       <div className="flex items-center justify-between mb-5">
         <h3 className="font-medium text-xl">Project Statistic</h3>
         <button

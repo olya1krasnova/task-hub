@@ -2,6 +2,7 @@
 
 @theme {
   --color-primary: #806DF2;
+  --color-background: #ffffff;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -21,4 +22,8 @@ body {
 
   min-width: 320px;
   min-height: 100vh;
+}
+
+.dark {
+  --color-background: rgba(255, 255, 255, 0.1);
 }
